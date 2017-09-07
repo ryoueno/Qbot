@@ -2,9 +2,9 @@ module Formatter
   extend self
   def format(term)
     <<-EOS
-【"#{term['term']}"】
+【#{term['term']}】
 
-"#{term['definition']}"
+#{term['definition']}
 #基本情報技術者
     EOS
   end
